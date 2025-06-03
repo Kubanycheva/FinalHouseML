@@ -1,7 +1,7 @@
 import fastapi
 from fastapi_limiter import FastAPILimiter
 
-from api.endpoints import (users, house)
+from house_app.api.endpoints import users, house
 import redis.asyncio as redis
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
